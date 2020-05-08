@@ -51,8 +51,6 @@ export const MemoryGame: React.FC<MemoryGameProps> = ({ nbCards }) => {
     }
   }, [solvedCards]);
 
-  console.log("Card length", cards.length);
-  console.log("Solved Cards", solvedCards.length);
   const onClick = (id: string) => {
     setDisabled(true);
     if (flippedCards.length === 0) {
