@@ -54,7 +54,7 @@ export const FaceCard: React.FC<FaceCardProps> = ({
             objectPosition: "50% 50%",
             height: "100%",
           }}
-          src={ isFaceDown || isSolved ? cardBackUrl : cardFaceUrl }
+          src={ isFaceDown || isSolved ? cardFaceUrl : cardBackUrl}
         />
     </div>
   );
